@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7100171160471813495}
   - component: {fileID: 422362092399316045}
   - component: {fileID: 5109297285635977635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Tru_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,5 +122,6 @@ MonoBehaviour:
   interactableLayer:
     serializedVersion: 2
     m_Bits: 8
-  maxDistance: 5
+  maxDistance: 2
+  interactText: {fileID: 0}
   hoverObject: {fileID: 0}

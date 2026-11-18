@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,13 +9,8 @@ public class MouseHover : MonoBehaviour
     public LayerMask interactableLayer;
     public float maxDistance = 5f;
 
-    private GameObject interactText;
+    public GameObject interactText;
     public GameObject hoverObject;
-
-    void Start()
-    {
-        GameObject interactText = GameObject.Find("Interact_Text");
-    }
     private void Update()
     {
         //Getting mouse Position
@@ -29,11 +25,17 @@ public class MouseHover : MonoBehaviour
             if (hoverObject != hitObject)
             {
                 hoverObject = hitObject;
-                interactText.SetActive(true);
+                Debug.Log("Started hovering: " + hoverObject.name);
+                if (interactText != null)
+                    interactText.SetActive(true);
+                
             }
-        } else if (hoverObject != null){
-            if(interactText != null)
+        }else if (hoverObject != null){
+            Debug.Log("Stopped hovering: " + hoverObject.name);
+            if (interactText != null)
                 interactText.SetActive(false);
+            hoverObject = null;
+            
         }
     }
 }

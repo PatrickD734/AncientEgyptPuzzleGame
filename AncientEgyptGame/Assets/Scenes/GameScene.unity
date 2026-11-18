@@ -535,6 +535,10 @@ PrefabInstance:
       propertyPath: hoverObject
       value: 
       objectReference: {fileID: 1914280010}
+    - target: {fileID: 5109297285635977635, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
+      propertyPath: interactText
+      value: 
+      objectReference: {fileID: 738348045}
     - target: {fileID: 6808592195538123763, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
       propertyPath: m_Name
       value: Oblisk (2)
@@ -9873,6 +9877,10 @@ PrefabInstance:
       propertyPath: hoverObject
       value: 
       objectReference: {fileID: 1546550957}
+    - target: {fileID: 5109297285635977635, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
+      propertyPath: interactText
+      value: 
+      objectReference: {fileID: 738348045}
     - target: {fileID: 6808592195538123763, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
       propertyPath: m_Name
       value: Oblisk (1)
@@ -19093,6 +19101,10 @@ PrefabInstance:
       propertyPath: hoverObject
       value: 
       objectReference: {fileID: 143156236}
+    - target: {fileID: 5109297285635977635, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
+      propertyPath: interactText
+      value: 
+      objectReference: {fileID: 738348045}
     - target: {fileID: 6808592195538123763, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
       propertyPath: m_Name
       value: Oblisk
@@ -21362,6 +21374,10 @@ PrefabInstance:
       propertyPath: hoverObject
       value: 
       objectReference: {fileID: 138276145}
+    - target: {fileID: 5109297285635977635, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
+      propertyPath: interactText
+      value: 
+      objectReference: {fileID: 738348045}
     - target: {fileID: 6808592195538123763, guid: 956816109c1f43643ab9571a7644dc21, type: 3}
       propertyPath: m_Name
       value: Oblisk (3)
